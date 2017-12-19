@@ -1,8 +1,4 @@
 <?php
-/**
- * Created by 胡祥能 on 2017/12/19.
- *  email：huxiangneng@jiuletech.com
- */
 
 interface Logger
 {

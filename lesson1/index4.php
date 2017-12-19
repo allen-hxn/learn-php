@@ -1,8 +1,4 @@
 <?php
-/**
- * Created by 胡祥能 on 2017/12/18.
- *  email：huxiangneng@jiuletech.com
- */
 //统一了变量语法
 
 $goo = [

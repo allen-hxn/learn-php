@@ -1,8 +1,6 @@
 <?php
-/**
- * Created by 胡祥能 on 2017/12/18.
- *  email：huxiangneng@jiuletech.com
- */
+
+//返回类型声明
 
 function test():int{
     return 'a';
