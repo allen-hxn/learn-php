@@ -7,8 +7,8 @@
 
 function test(){
     try {
-        $a = 10 % 0;
-//        $b = 10 / 0;//这样捕捉不到error
+//        $a = 10 % 0;
+        $b = 10 / 0;    //这样捕捉不到error，后来发现产生的是警告，而不是抛出异常
         return 'Done';
     } catch (DivisionByZeroError $error) {
         return 'Error message：' . $error->getMessage();
